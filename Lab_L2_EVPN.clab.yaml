@@ -1,0 +1,50 @@
+name: Lab_L2_EVPN
+topology:
+  kinds:
+    nokia_srlinux:
+      image: ghcr.io/nokia/srlinux:25.7
+    linux:
+      image: ghcr.io/lldpd/lldpd:latest
+
+  nodes:
+    spine1:
+      kind: nokia_srlinux
+      type: ixr-d3
+    spine2:
+      kind: nokia_srlinux
+      type: ixr-d3
+    leaf1:
+      kind: nokia_srlinux
+      type: ixr-d3
+    leaf2:
+      kind: nokia_srlinux
+      type: ixr-d3
+    leaf3:
+      kind: nokia_srlinux
+      type: ixr-d3
+    Host1:
+      kind: linux
+    Host2:
+      kind: linux
+    Host3:
+      kind: linux
+
+  links:
+    # Spine1 connections
+    - endpoints: ["spine1:e1-1", "leaf1:e1-1"]
+    - endpoints: ["spine1:e1-2", "leaf2:e1-1"]
+    - endpoints: ["spine1:e1-3", "leaf3:e1-1"]
+
+    # Spine2 connections
+    - endpoints: ["spine2:e1-1", "leaf1:e1-2"]
+    - endpoints: ["spine2:e1-2", "leaf2:e1-2"]
+    - endpoints: ["spine2:e1-3", "leaf3:e1-2"]
+
+    # Leaf1 connection
+    - endpoints: ["leaf1:e1-3", "Host1:eth1"]
+
+    # Leaf2 connection
+    - endpoints: ["leaf2:e1-3", "Host2:eth1"]
+
+    # Leaf3 connection
+    - endpoints: ["leaf3:e1-3", "Host3:eth1"]
