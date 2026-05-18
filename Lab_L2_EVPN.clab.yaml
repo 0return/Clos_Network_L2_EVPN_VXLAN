@@ -22,11 +22,11 @@ topology:
     leaf3:
       kind: nokia_srlinux
       type: ixr-d3
-    Host1:
+    PC1:
       kind: linux
-    Host2:
+    PC2:
       kind: linux
-    Host3:
+    PC3:
       kind: linux
 
   links:
@@ -41,10 +41,10 @@ topology:
     - endpoints: ["spine2:e1-3", "leaf3:e1-2"]
 
     # Leaf1 connection
-    - endpoints: ["leaf1:e1-3", "Host1:eth1"]
+    - endpoints: ["leaf1:e1-10", "PC1:eth1"]
 
     # Leaf2 connection
-    - endpoints: ["leaf2:e1-3", "Host2:eth1"]
+    - endpoints: ["leaf2:e1-10", "PC2:eth1"]
 
     # Leaf3 connection
-    - endpoints: ["leaf3:e1-3", "Host3:eth1"]
+    - endpoints: ["leaf3:e1-10", "PC3:eth1"]
