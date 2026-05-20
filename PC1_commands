@@ -5,3 +5,5 @@ ip link set eth1 up
 ip link set eth1.100 up
 
 ip addr add 192.168.100.1/24 broadcast 192.168.100.255 dev eth1.100
+
+ip route add 192.168.100.0/24 via 192.168.101.254 dev eth1.101
