@@ -1,0 +1,6 @@
+ip link add link eth1 name eth1.200 type vlan id 200
+
+ip link set eth1 up
+ip link set eth1.200 up
+
+ip addr add 192.168.200.2/24 broadcast 192.168.100.255 dev eth1.200
