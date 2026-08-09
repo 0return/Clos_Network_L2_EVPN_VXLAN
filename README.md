@@ -1,26 +1,19 @@
 Topology:
 
 
-<img width="1792" height="498" alt="image" src="https://github.com/user-attachments/assets/326779a5-184a-4e2c-84d9-6fddf8dd3877" />
-
-
-Verification:
-
-
-Leaf1 Customer 100:
-
-<img width="1333" height="429" alt="image" src="https://github.com/user-attachments/assets/0e037feb-7802-4bb8-8f7d-33c7eec16845" />
+<img width="1272" height="449" alt="image" src="https://github.com/user-attachments/assets/76f0733d-fb47-4036-a8bf-a12c56b5dded" />
 
 
 
-Customer1-100
 
-<img width="550" height="194" alt="image" src="https://github.com/user-attachments/assets/dbd87b71-6443-4e2f-bdc3-12d246b8279e" />
+Verification commands:
 
+Spine´s commands:
 
-Customer2-100
+<img width="1310" height="603" alt="image" src="https://github.com/user-attachments/assets/8586192c-970c-4cdd-ba08-051dfe165483" />
 
-<img width="549" height="161" alt="image" src="https://github.com/user-attachments/assets/712931f4-c6bc-4a2b-8047-fcef9cb22d96" />
+<img width="1273" height="364" alt="image" src="https://github.com/user-attachments/assets/f63d6a28-c851-4d2c-bbe9-7731161137dc" />
+
 
 
 
