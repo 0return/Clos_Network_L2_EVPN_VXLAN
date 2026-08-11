@@ -1,4 +1,4 @@
-                                                                  L2 EVPN/VXLAN Clos Network Lab
+                                L2 EVPN/VXLAN Clos Network Lab
 
 A hands-on Layer 2 EVPN/VXLAN lab built with Nokia SR Linux 25.7 and Containerlab.
 The lab demonstrates how EVPN is used as the control plane for a VXLAN overlay in a Clos leaf-spine topology, providing Layer 2 connectivity between hosts attached to different leaf switches.
