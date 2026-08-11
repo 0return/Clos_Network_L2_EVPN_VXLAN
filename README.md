@@ -34,6 +34,15 @@ Leaf´s commands:
 <img width="583" height="596" alt="image" src="https://github.com/user-attachments/assets/60c2809d-1e4f-4cba-b776-f18282e48dfb" />
 
 
+Customer 100 commands:
+
+<img width="478" height="538" alt="image" src="https://github.com/user-attachments/assets/b7642ac7-369c-4ac0-8efc-225caec88122" />
+
+
+Customer 200 commands:
+
+<img width="460" height="531" alt="image" src="https://github.com/user-attachments/assets/53226994-a021-48b3-afe0-66ff68a3ca7e" />
+
 
 
 
