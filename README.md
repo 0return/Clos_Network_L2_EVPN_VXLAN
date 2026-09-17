@@ -6,7 +6,8 @@ The main objective is to demonstrate how multiple customers can share the same p
 
 Topology:
 
-<img width="1272" height="449" alt="image" src="https://github.com/user-attachments/assets/76f0733d-fb47-4036-a8bf-a12c56b5dded" />
+<img width="1280" height="440" alt="image" src="https://github.com/user-attachments/assets/23b35a0b-6284-4764-9826-4e8f43518365" />
+
 
 
 
